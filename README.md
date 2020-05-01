@@ -88,6 +88,20 @@ Setting k=13,  the model is trained on the full data set. Once the training has 
 
 ## 3.2 Supervised learning
 
+The accuracy of the logistic regression model is only 0.27 and the performance is bad, so we train an OneVsRest Logistic Regression model. The idea for OneVsRest Logistic Regression is that for each class, there is a binary classifier: this class or the rest of the class. When doing a multi class classification, choose the class with the highest probability.
+
+The accuracy of the OneVsRest Logistic Regression model is 0.344. The performance is better than logistic regression but still not ideal. 
+
+![](Figure 3_1_2_1.png)
+
+**Figure 3.1.2.1 Confusion Matrix of OneVsRest Logistic Regression**
+
+The accuracy of the decision tree model is 0.37 and the performance is the best among all three supervised learning models we have trained.
+
+![](Figure 3_1_2_2.png)
+
+**Figure 3.1.2.2 Confusion Matrix of Decision Tree**
+
 
 # 4. Conclusions and Future Work
 In conclusion, K-means clustering model performs well for unsupervised categorization and  Decision Tree has the best performance among all three supervised learning models. However, the performance is still not ideal, and it is worse than the unsupervised learning models. 
