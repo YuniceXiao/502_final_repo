@@ -1,6 +1,7 @@
-# 502_final_repo
+# Analysis on FMA Dataset
 
-# Group: Return to Sleep
+# Group Name
+Return to Sleep
 
 # Group Members
 * Andrey Yuan (ay432)
@@ -78,6 +79,8 @@ While training these models, features are combined together using the vectorAsse
 ## 3.1 Unsupervised learning
 
 The graph below indicates that the cost function floats very little after k=13 , which is also the number of track genres we have selected. 
+
+![](Figure3_1_1.png)
 
 **Figure 3.1.1 Plot of Cost Function according to the Choices of K**
 
