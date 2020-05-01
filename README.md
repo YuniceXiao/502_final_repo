@@ -86,6 +86,7 @@ The graph below indicates that the cost function floats very little after k=13 ,
 
 Setting k=13,  the model is trained on the full data set. Once the training has converged, the centroids of the 13 clusters are printed in the code file and the Silhouette with squared euclidean distance is 0.608, which means that the data can be separated properly into 13 groups. The cost of clustering is 20292685.27.
 
+
 ## 3.2 Supervised learning
 
 The accuracy of the logistic regression model is only 0.27 and the performance is bad, so we train an OneVsRest Logistic Regression model. The idea for OneVsRest Logistic Regression is that for each class, there is a binary classifier: this class or the rest of the class. When doing a multi class classification, choose the class with the highest probability.
