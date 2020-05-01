@@ -92,13 +92,13 @@ The accuracy of the logistic regression model is only 0.27 and the performance i
 
 The accuracy of the OneVsRest Logistic Regression model is 0.344. The performance is better than logistic regression but still not ideal. 
 
-![](Figure 3_1_2_1.png)
+![](Figure3_1_2_1.png)
 
 **Figure 3.1.2.1 Confusion Matrix of OneVsRest Logistic Regression**
 
 The accuracy of the decision tree model is 0.37 and the performance is the best among all three supervised learning models we have trained.
 
-![](Figure 3_1_2_2.png)
+![](Figure3_1_2_2.png)
 
 **Figure 3.1.2.2 Confusion Matrix of Decision Tree**
 
